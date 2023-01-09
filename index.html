@@ -2,21 +2,15 @@
 <head>
   <title>Six Nations Rugby Redirect Website - Contact for Purchase!</title>
   <link rel="stylesheet" href="styles.css">
+  <script defer src="index.js"></script>
 </head>
 <body class="body">
-    <a href="https://www.sixnationsrugby.com"><img width="150px" src="GUINNESS_SIX_NATIONS_LANDSCAPE_STACKED_RGB.png" class="logo"></a>
-    
-    
+    <a href="https://www.sixnationsrugby.com"><img width="150px" src="GUINNESS_SIX_NATIONS_LANDSCAPE_STACKED_RGB.png" class="logo"></a>   
     <h1>Six Nations Rugby Redirect Website - Contact for Purchase!</h1>
-  
-  <p>You are visitor number: <span id="visitor-count">0</span></p>
-  
+    <div class="p">You are visitor number:</div>
+    <div class="website-counter"></div>
   <script>
-    // Increment the visitor count by 1
-    var count = parseInt(document.getElementById('visitor-count').innerHTML);
-    count = count + 1;
-    document.getElementById('visitor-count').innerHTML = count;
-    
+
     // Redirect to another page after 10 seconds
     setTimeout(function() {
       window.location.replace('http://www.sixnationsrugby.com/');
